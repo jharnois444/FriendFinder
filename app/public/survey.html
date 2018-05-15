@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <!-- Font Awesome Glyphicons -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <title>Home</title>
+
+    <!-- Chosen -->
+    <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.5/chosen.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.5/chosen.jquery.min.js"></script>
+    
+    <title>Survey</title>
 </head>
 <body>
 
@@ -37,7 +43,7 @@
 
         <h3><strong>Question 2</strong></h3>
         <h4>[Insert Question 2 here]</h4>
-        <select data-placeholder="" class="chosen-select" id="q1">
+        <select data-placeholder="" class="chosen-select" id="q2">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -48,7 +54,7 @@
 
         <h3><strong>Question 3</strong></h3>
         <h4>[Insert Question 3 here]</h4>
-        <select data-placeholder="" class="chosen-select" id="q1">
+        <select data-placeholder="" class="chosen-select" id="q3">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -59,7 +65,7 @@
 
         <h3><strong>Question 4</strong></h3>
         <h4>[Insert Question 4 here]</h4>
-        <select data-placeholder="" class="chosen-select" id="q1">
+        <select data-placeholder="" class="chosen-select" id="q4">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -70,7 +76,7 @@
 
         <h3><strong>Question 5</strong></h3>
         <h4>[Insert Question 5 here]</h4>
-        <select data-placeholder="" class="chosen-select" id="q1">
+        <select data-placeholder="" class="chosen-select" id="q5">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -81,7 +87,7 @@
 
         <h3><strong>Question 6</strong></h3>
         <h4>[Insert Question 6 here]</h4>
-        <select data-placeholder="" class="chosen-select" id="q1">
+        <select data-placeholder="" class="chosen-select" id="q6">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -92,7 +98,7 @@
 
         <h3><strong>Question 7</strong></h3>
         <h4>[Insert Question 7 here]</h4>
-        <select data-placeholder="" class="chosen-select" id="q1">
+        <select data-placeholder="" class="chosen-select" id="q7">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -103,7 +109,7 @@
 
         <h3><strong>Question 8</strong></h3>
         <h4>[Insert Question 8 here]</h4>
-        <select data-placeholder="" class="chosen-select" id="q1">
+        <select data-placeholder="" class="chosen-select" id="q8">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -114,7 +120,7 @@
 
         <h3><strong>Question 9</strong></h3>
         <h4>[Insert Question 9 here]</h4>
-        <select data-placeholder="" class="chosen-select" id="q1">
+        <select data-placeholder="" class="chosen-select" id="q9">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -125,7 +131,7 @@
 
         <h3><strong>Question 10</strong></h3>
         <h4>[Insert Question 10 here]</h4>
-        <select data-placeholder="" class="chosen-select" id="q1">
+        <select data-placeholder="" class="chosen-select" id="q10">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -133,6 +139,13 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
+
+        <br>
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
+
+        <hr>
 
         
 
